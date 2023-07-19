@@ -1,0 +1,57 @@
+.filters {
+  display: flex;
+}
+
+.filters-container {
+  background-color: white;
+  padding: 12px 24px;
+  min-width: 350px;
+  max-width: 350px;
+  padding: 12px 24px;
+}
+
+.filters-heading,
+.demographics-heading {
+  font-weight: 400;
+}
+
+.filters-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.demographics {
+  background: #c4ced940;
+  padding: 12px 15px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 57px;
+}
+
+.demographics-heading {
+  color: #778faa;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.options {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 5px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #e8ecf0;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  width: 48%;
+}
+
+.option[data-selected='true'] {
+  background: #e2e6eb;
+  border-color: #c7cfd9;
+}
